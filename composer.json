@@ -1,0 +1,18 @@
+{
+  "name": "jhones/pizzeria",
+  "description": "Pizzeria system project",
+  "type": "project",
+  "license": "Mit",
+  "autoload": {
+    "psr-4": {
+      "Pizzeria\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jhones",
+      "email": "jhones29@hotmail.com"
+    }
+  ],
+  "require": {}
+}
