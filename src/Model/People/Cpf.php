@@ -1,6 +1,6 @@
 <?php
 
-namespace Pizzeria\Domain\Model\People;
+namespace Pizzeria\Model\People;
 
 class Cpf
 {

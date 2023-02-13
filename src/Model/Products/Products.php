@@ -1,6 +1,6 @@
 <?php
 
-namespace Pizzeria\Domain\Model\Products;
+namespace Pizzeria\Model\Products;
 
 Class Products
 {

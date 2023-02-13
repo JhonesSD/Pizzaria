@@ -1,6 +1,6 @@
 <?php
 
-namespace Pizzeria\Domain\Model\Order;
+namespace Pizzeria\Model\Order;
 
 use DateTime;
 

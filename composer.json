@@ -1,6 +1,6 @@
 {
-  "name": "jhones/pizzeria",
-  "description": "Pizzeria system project",
+  "name": "jhones/pizzaria",
+  "description": "Pizzaria system project",
   "type": "project",
   "license": "Mit",
   "autoload": {

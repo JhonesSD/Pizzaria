@@ -1,20 +1,20 @@
 <?php
 
-namespace Pizzeria\Domain\Model\People;
+namespace Pizzeria\Model\People;
 
 class Address
 {
   private ?int $id;
   private string $street;
-  private string $number_House;
+  private string $numberHouse;
   private string $district;
   private string $cep;
 
-  public function __construct(?int $id,string $street, string $number_House, string $district, string $cep)
+  public function __construct(?int $id,string $street, string $numberHouse, string $district, string $cep)
   {
     $this->id = $id;
     $this->street = $street;
-    $this->number_House = $number_House;
+    $this->numberHouse = $numberHouse;
     $this->district = $district;
     $this->cep = $cep;
   }
@@ -37,12 +37,12 @@ class Address
 
   public function getNumber_House()
   {
-    return $this->number_House;
+    return $this->numberHouse;
   }
 
   public function setNumber_House($number_House): self
   {
-    $this->number_House = $number_House;
+    $this->numberHouse = $number_House;
     return $this;
   }
 

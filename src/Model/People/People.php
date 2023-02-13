@@ -1,10 +1,10 @@
 <?php
 
-namespace Pizzeria\Domain\Model\People;
+namespace Pizzeria\Model\People;
 
-require './vendor/autoload.php';
+require '/vendor/autoload.php';
 
-use Pizzeria\Domain\Model\People\Cpf as PeopleCpf;
+use Pizzeria\Model\People\Cpf as PeopleCpf;
 
 class  People
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pizzeria\Domain\Service\Database;
+namespace Pizzeria\Controller\Database;
 
 use PDO;
 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzaria</title>
+  </head>
+  <body>
+    <form action="/src/Controller/ControllerRegister.php" method="POST">
+      <fieldset>
+        <legend><b>Cadastro</b></legend>
+        <div>
+          <input type="text" name="name" required />
+          <label for="name">Nome completo</label>
+        </div>
+        <div>
+          <input type="date" name="age" autocomplete="off" />
+          <label for="age">Data de nascimento</label>
+        </div>
+        <div>
+          <input type="email" name="email" required />
+          <label for="email">Email</label>
+        </div>
+        <div>
+          <input type="password" name="password" required />
+          <label for="password">Senha</label>
+        </div>
+        <div>
+          <input type="text" name="cpf" required />
+          <label for="cpf">CPF</label>
+        </div>
+        <div>
+          <input type="text" name="street" required />
+          <label for="street">Endereço</label>
+        </div>
+        <div>
+          <input type="text" name="numberHouse" />
+          <label for="numberHouse">Número da casa</label>
+        </div>
+        <div>
+          <input type="text" name="district">
+          <label for="district">Bairro</label>
+        </div>
+        <div>
+          <input type="text" name="cep">
+          <label for="cep">CEP</label>
+        </div>
+        <button type="submit">Cadastrar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
